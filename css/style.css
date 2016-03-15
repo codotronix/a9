@@ -2,6 +2,52 @@
     color: #D0C2C2;
 }
 
+.mainContaier {
+    margin-top: 50px;
+}
+
+.homeContent {
+/*    padding: 30px 10px;*/
+    background: #000;
+}
+
+.homeContent h1 {
+    padding-top: 15px;
+    color: #FFF;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.homeContent .div2 {
+    background: yellow;
+/*    background-size: cover;*/
+    padding: 60px 30px;
+    font-size: 60px;
+/*    color: #FFF;*/
+    text-align: center;
+}
+
+.homeContent .courseList {
+    list-style: none;
+    background: #000;
+    padding: 30px 15px;
+}
+
+.homeContent .courseList li {
+    padding: 7px;
+}
+
+.homeContent .courseList li a {
+    display: block;
+    text-decoration: none;
+    color: #FFF;
+    font-size: 16px;
+    height: 120px;
+    padding: 5px;
+    background: #9AA6FF;
+    text-align: center;
+}
+
 @media (max-width: 767px) {
     .navbar-nav>li {
         border-left: 4px solid transparent;
