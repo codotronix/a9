@@ -48,6 +48,10 @@
     text-align: center;
 }
 
+.homeContent .courseList li a:hover {
+    border-bottom: 3px solid yellow;
+}
+
 @media (max-width: 767px) {
     .navbar-nav>li {
         border-left: 4px solid transparent;
